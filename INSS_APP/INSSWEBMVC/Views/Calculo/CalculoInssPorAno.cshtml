@@ -1,0 +1,62 @@
+﻿@model INSSWEBMVC.Entity.CalculoModel
+
+@{
+    ViewBag.Title = "CalculoInss";
+}
+
+<h2>Calcular Inss Desconto selecionando o ano desejado</h2>
+
+
+
+
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Calcular Inss Desconto selecionando o ano desejado</h5>
+                </div>
+                <div class="ibox-content">
+                    @using (Html.BeginForm("CalculoInss", "Calculo"))
+                    {
+
+
+                        <div class="form-group">
+                            <label for='inssid' class="control-label">Selecione calculo</label>
+                            @Html.DropDownList("inssid", null, "Selecione o ano de calculo", new { @class = "form-control" })
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(obj => obj.NomeEmpregado)
+                            @Html.TextBoxFor(obj => obj.NomeEmpregado, new { @class = "form-control" })
+
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(obj => obj.Salario)
+                            @Html.TextBoxFor(obj => obj.Salario, new { @class = "form-control" })
+
+                        </div>
+
+
+
+
+
+                        <div>
+                            <input type="submit" value="Salvar" class="btn btn-warning btn-lg" />
+
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

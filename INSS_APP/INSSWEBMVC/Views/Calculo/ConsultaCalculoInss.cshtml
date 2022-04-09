@@ -1,0 +1,47 @@
+﻿@model List<INSSWEBMVC.Entity.CalculoModel>
+
+
+<h2>Consulta Calculo Inss</h2>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Lista de Clientes</h5>
+                </div>
+                <div class="ibox-content">
+                    <table class="table">
+                        <tr>
+                            <td>Cliente ID</td>
+                            <td>Empregado </td>
+                            <td>Salario</td>
+                            <td>data</td>
+                            <td>Porcentagem desconto Inss</td>
+                            <td>Valor desconto Inss</td>
+                            <td>Salario Liquido</td>
+
+
+                        </tr>
+                        @foreach (var item in Model)
+
+                        {
+                    <tr>
+                        <td>@item.id</td>
+                        <td>@item.NomeEmpregado</td>
+                        <td>@item.Salario</td>
+
+                        <td>@item.dataCriacaoCalculo</td>
+                        <td>@item.inssrefmodel.porcentagem</td>
+                        <td>@item.descontoInss</td>
+                        <td>@item.SalarioLiquido</td>
+
+
+                    </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

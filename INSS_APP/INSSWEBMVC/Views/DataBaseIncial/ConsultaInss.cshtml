@@ -1,0 +1,49 @@
+﻿@model List<INSSWEBMVC.Entity.InssModel>
+
+@{
+    ViewBag.Title = "Consulta";
+}
+
+<p class="h1">Checagem de Base</p>
+
+
+
+<h2>Consulta Inss Anos</h2>
+
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>Lista anos Inss</h5>
+                </div>
+                <div class="ibox-content">
+                    <table class="table">
+                        <tr>
+                            <td> ID</td>
+                            <td>ano </td>
+                            <td>limite Salario</td>
+                            <td>porcentagem </td>
+
+
+                            <td>menu apagar</td>
+                        </tr>
+                        @foreach (var item in Model)
+
+                        {
+                            <tr>
+                                <td>@item.id</td>
+                                <td>@item.ano</td>
+                                <td>@item.LimiteSalario</td>
+                                <td>@item.porcentagem</td>
+
+                                <td>@Html.ActionLink("Deletar Inss", "DeletarInss", "Home", new { id = item.id }, new { @class = "btn btn-danger btn-sm" })</td>
+                                <td>@Html.ActionLink("CadastroInss", "CadastroInss", "Home", new { @class = "btn btn-danger btn-sm" })</td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

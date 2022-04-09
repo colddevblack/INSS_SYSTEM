@@ -1,0 +1,18 @@
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\bin\Debug\INSS.exe
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\bin\Debug\INSS.pdb
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\obj\Debug\INSS.csproj.AssemblyReference.cache
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\obj\Debug\INSS.csproj.CoreCompileInputs.cache
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\obj\Debug\INSS.exe
+C:\Users\Cold\Documents\Problemas c#\Problemas\INSS\obj\Debug\INSS.pdb
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\bin\Debug\INSS.exe
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\bin\Debug\INSS.pdb
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\obj\Debug\INSS.csproj.AssemblyReference.cache
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\obj\Debug\INSS.csproj.CoreCompileInputs.cache
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\obj\Debug\INSS.exe
+C:\Users\Cold\Documents\IBM_MVC\Problemas\INSS\obj\Debug\INSS.pdb
+C:\Users\Cold\Documents\INSS_APP\INSS\bin\Debug\INSS.exe
+C:\Users\Cold\Documents\INSS_APP\INSS\bin\Debug\INSS.pdb
+C:\Users\Cold\Documents\INSS_APP\INSS\obj\Debug\INSS.csproj.AssemblyReference.cache
+C:\Users\Cold\Documents\INSS_APP\INSS\obj\Debug\INSS.csproj.CoreCompileInputs.cache
+C:\Users\Cold\Documents\INSS_APP\INSS\obj\Debug\INSS.exe
+C:\Users\Cold\Documents\INSS_APP\INSS\obj\Debug\INSS.pdb
